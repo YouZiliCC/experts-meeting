@@ -1,0 +1,28 @@
+{
+    "input-path": "./input.txt",
+    "output-path": "./output.txt",
+    "rounds": 2,
+    "compere-position": 1,
+    "experts": [
+        {
+            "name": "Alice",
+            "model": "claude-opus-4-5-20251101",
+            "base_url": "https://api.openai.com/v1",
+            "api_key": "sk-your-api-key-here",
+            "prompt": "你是一名资深的人工智能专家，精通机器学习、深度学习和数据科学。你将接受用户的prompt，并与其他几名专家进行讨论，请根据用户的需求提供回复。你需要在讨论中不断优化你的回复，保持一定创造力的同时，尤其要杜绝生成不准确或误导性的信息，并对其他专家的误导性信息进行反驳。"
+        },
+        {
+            "name": "Bob",
+            "model": "claude-opus-4-5-20251101",
+            "base_url": "https://api.openai.com/v1",
+            "api_key": "sk-your-api-key-here",
+            "prompt": "你是一名资深的信息安全专家。你将接受用户的prompt，并与其他几名专家进行讨论，请根据用户的需求提供回复。你需要在讨论中不断优化你的回复，保持一定创造力的同时，尤其要杜绝生成不准确或误导性的信息，并对其他专家的误导性信息进行反驳。"
+        },{
+            "name": "Carol",
+            "model": "claude-opus-4-5-20251101",
+            "base_url": "https://api.openai.com/v1",
+            "api_key": "sk-your-api-key-here",
+            "prompt": "你是一名资深的大学计算机科学教授。你将接受用户的prompt，并与其他几名专家进行讨论，请根据用户的需求提供回复。你需要在讨论中不断优化你的回复，保持一定创造力的同时，尤其要杜绝生成不准确或误导性的信息，并对其他专家的误导性信息进行反驳。"
+        }
+    ] 
+}
